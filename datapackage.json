@@ -1,0 +1,112 @@
+{
+  "name": "office-blues-misery-data",
+  "title": "Office Blues — Misery Data",
+  "description": "Open data on the cost of work: U.S. occupation wages (BLS OEWS) and a city burnout index. Maintained by Office Blues (officeblues.net).",
+  "homepage": "https://officeblues.net",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "occupation_wages",
+      "path": "data/occupation_wages.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "U.S. occupation annual wages (n=823)",
+      "schema": {
+        "fields": [
+          {
+            "name": "soc",
+            "type": "string",
+            "title": "SOC 2018 code"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "title": "Occupation title"
+          },
+          {
+            "name": "p25_usd",
+            "type": "integer",
+            "title": "25th-percentile annual wage (USD)"
+          },
+          {
+            "name": "median_usd",
+            "type": "integer",
+            "title": "Median annual wage (USD)"
+          },
+          {
+            "name": "p75_usd",
+            "type": "integer",
+            "title": "75th-percentile annual wage (USD)"
+          },
+          {
+            "name": "p90_usd",
+            "type": "integer",
+            "title": "90th-percentile annual wage (USD)"
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "title": "Office Blues page URL"
+          }
+        ]
+      }
+    },
+    {
+      "name": "city_burnout_index",
+      "path": "data/city_burnout_index.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "City burnout index (n=50)",
+      "schema": {
+        "fields": [
+          {
+            "name": "cbsa_code",
+            "type": "string",
+            "title": "Census CBSA code"
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "title": "Metro area"
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "title": "State"
+          },
+          {
+            "name": "population",
+            "type": "integer",
+            "title": "Metro population"
+          },
+          {
+            "name": "burnout_score",
+            "type": "integer",
+            "title": "Burnout score (0–100, higher = worse)"
+          },
+          {
+            "name": "rank",
+            "type": "integer",
+            "title": "Rank (1 = worst)"
+          },
+          {
+            "name": "of_cities",
+            "type": "integer",
+            "title": "Total cities ranked"
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "title": "Office Blues page URL"
+          }
+        ]
+      }
+    }
+  ]
+}
