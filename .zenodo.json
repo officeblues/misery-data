@@ -1,0 +1,27 @@
+{
+  "title": "Office Blues — Misery Data: U.S. occupation wages + city burnout index",
+  "description": "<p>Open data on the cost of work, maintained by <a href=\"https://officeblues.net\">Office Blues</a>. Two aggregate datasets derived from public sources: U.S. occupation annual wage percentiles (from BLS OEWS) and a composite city burnout index for the 50 largest U.S. metro areas. Aggregates only — no personal or per-visitor data. Methodology and the underlying tools live at officeblues.net.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "wages",
+    "occupational wages",
+    "BLS OEWS",
+    "labor statistics",
+    "burnout",
+    "workplace",
+    "cost of work",
+    "United States",
+    "open data"
+  ],
+  "creators": [
+    { "name": "Office Blues" }
+  ],
+  "related_identifiers": [
+    { "relation": "isSupplementTo", "identifier": "https://officeblues.net", "scheme": "url" },
+    { "relation": "isDocumentedBy", "identifier": "https://officeblues.net/methodology", "scheme": "url" },
+    { "relation": "isDerivedFrom", "identifier": "https://www.bls.gov/oes/", "scheme": "url" }
+  ],
+  "notes": "ORCID/ROR creator identifiers to be added in a future release (see Office Blues growth backlog)."
+}
