@@ -1,5 +1,7 @@
 # Office Blues — Misery Data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20534485.svg)](https://doi.org/10.5281/zenodo.20534485) · [License: CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
 Open data on the cost of work. Two datasets, both derived from public sources, maintained by **[Office Blues](https://officeblues.net)** — a media-and-tools project for the unhappily employed.
 
 > Free to use under **CC BY 4.0**. Quote a figure, build on it, cite us.
@@ -37,9 +39,10 @@ A composite "burnout" score (0–100, higher = worse) for the 50 largest U.S. me
 - `datapackage.json` — a [Frictionless Data](https://frictionlessdata.io/) descriptor (schemas + licensing).
 
 ## Cite this dataset
+**DOI:** [10.5281/zenodo.20534485](https://doi.org/10.5281/zenodo.20534485) — the concept DOI, always resolving to the latest version (archived on [Zenodo](https://zenodo.org/records/20534486)).
 ```
 Office Blues, "Misery Data" (occupation wages + city burnout index),
-officeblues.net, CC BY 4.0.
+officeblues.net (2026). CC BY 4.0. https://doi.org/10.5281/zenodo.20534485
 ```
 
 ## About
